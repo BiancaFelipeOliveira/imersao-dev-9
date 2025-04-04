@@ -1,101 +1,102 @@
 /* Global Styles */
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
 
 * {
-    font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 body {
-    background-color: black;
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    color: white;
-    position: relative;
-  }
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  color: white;
+  position: relative;
+}
 
-  
 .montserrat-font {
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 200;
-    font-style: normal;
-  }
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
 
-  .logo {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    max-width: 250px;
-    width: auto;
-  }
+.logo {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  max-width: 250px;
+  width: auto;
+}
 
-  #valorInput, #escolhaJogador {
-    width: 96%;
-    padding: 15px 10px;
-    border-radius: 5px;
-    margin-bottom: 20px;
-  }
+#valorInput,
+#escolhaJogador {
+  width: 96%;
+  padding: 15px 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
 
-  #botoes {
-    justify-content: space-between;
-    display: flex;
-  }
-  .navegar {
-    color: black;
-    font-weight: 500;
-  }
-  
-  .container {
-    background-color: #3dff77;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+#botoes {
+  justify-content: space-between;
+  display: flex;
+}
+.navegar {
+  color: black;
+  font-weight: 500;
+}
 
-  #pedra-papel-tesoura {
-    width: 70px;
-  }
-  
-  .content {
-    text-align: center;
-    background-color: rgba(255, 255, 255);
-    border: 1px solid black;
-    padding: 40px 40px;
-    border-radius: 8px;
-  }
-  
-  .content h2, p {
-    margin-bottom: 20px;
-    color: black;
-  }
+.container {
+  background-color: #3dff77;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  h3 {
-    color: black;
-  }
+#pedra-papel-tesoura {
+  width: 70px;
+}
 
-  h2 {
-    font-size: 40px;
-  }
-  
-  button {
-    background-color: white;
-    padding: 10px 20px;
-    font-size: 1.2em;
-    color: rgb(0, 0, 0);
-    cursor: pointer;
-    border: 1px solid black;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-  }
-  
-  button:hover {
-    background-color: #000000;
-    color: white;
-  }
-  
-  footer {
-    text-align: center;
-    padding: 10px;
-  }
+.content {
+  text-align: center;
+  background-color: rgba(255, 255, 255);
+  border: 1px solid black;
+  padding: 40px 40px;
+  border-radius: 8px;
+}
+
+.content h2,
+p {
+  margin-bottom: 20px;
+  color: black;
+}
+
+h3 {
+  color: black;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+button {
+  background-color: white;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #000000;
+  color: white;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+}
