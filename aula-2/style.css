@@ -30,11 +30,20 @@ body {
     width: auto;
   }
 
-  #valorInput {
+  #valorInput, #escolhaJogador {
     width: 96%;
     padding: 15px 10px;
     border-radius: 5px;
     margin-bottom: 20px;
+  }
+
+  #botoes {
+    justify-content: space-between;
+    display: flex;
+  }
+  .navegar {
+    color: black;
+    font-weight: 500;
   }
   
   .container {

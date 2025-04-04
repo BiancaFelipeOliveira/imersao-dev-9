@@ -1,32 +1,46 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="./style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Conversor de Moedas</title>
-    <link rel="shortcut icon" href="img/favicon-moeda.png" type="image/x-icon">
-</head>
+    <link
+      rel="shortcut icon"
+      href="img/favicon-moeda.png"
+      type="image/x-icon"
+    />
+  </head>
 
-<body>
-    <img src="https://i.postimg.cc/GpCxYmvc/title.png" alt="Logo" class="logo">
-  
+  <body>
+    <img
+      src="https://i.postimg.cc/GpCxYmvc/title.png"
+      alt="Logo"
+      class="logo"
+    />
+
     <div class="container">
       <div class="content">
-        <img id="moeda" src="img/favicon-moeda.png" alt="">
+        <img id="moeda" src="img/favicon-moeda.png" alt="" />
         <h2>Conversor de Moedas</h2>
         <p>Escreva o valor (em reais) e clique na opção que deseja.</p>
-        <input type="number" id="valorInput" placeholder="Digite o valor em reais"><br>
+        <input
+          type="number"
+          id="valorInput"
+          placeholder="Digite o valor em reais"
+        /><br />
         <button onclick="conversordolar()">Para Dólar</button>
         <button onclick="conversoreuro()">Para Euro</button>
         <button onclick="conversorwon()">Para Won</button>
         <button onclick="conversorlibra()">Para Libra</button>
         <h3 id="resultado"></h3>
+        <div id="botoes">
+          <a class="navegar" href=""></a>
+          <a class="navegar" href="../aula-2/index.html">Avançar</a>
+        </div>
       </div>
     </div>
     <footer>Alura - Imersão DEV - 2025</footer>
     <script src="./script.js"></script>
   </body>
- 
-  
 </html>
