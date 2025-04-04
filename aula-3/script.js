@@ -14,7 +14,7 @@ function jogar() {
         "Você passou para a próxima fase! O piso quebrado estava na posição " +
           pisoQuebrado
       );
-    }
+    } 
     rodada = rodada + 1;
   }
   if (rodada == 4) {
