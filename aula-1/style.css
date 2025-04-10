@@ -92,15 +92,21 @@ button {
   padding: 10px 20px;
   border-radius: var(--border-radius-input);
   border: var(--border);
-  background-color: var(--blanc);
+  background-color: var(--noir);
+  color: var(--blanc);
   font-size: 19px;
   font-weight: 500;
 }
 
 button:hover {
-  background-color: var(--noir);
-  color: var(--blanc);
+  background-color: var(--blanc);
+  color: var(--noir);
   transition: background-color 0.5s ease;
+}
+
+h3 {
+  padding: 10px 0px;
+  text-align: center;
 }
 
 #buttons {
@@ -108,11 +114,6 @@ button:hover {
   align-items: center;
   justify-content: space-around;
   
-}
-
-h3 {
-  padding: 10px 0px;
-  text-align: center;
 }
 
 .button-nav {
@@ -135,7 +136,7 @@ h3 {
   transform: translate(-50%, -50%);
   font-family: "Montserrat", sans-serif;
   font-size: 10px;
-  color: #ffffff;
+  color: var(--blanc);
   font-weight: bold;
   font-size: 15px;
   pointer-events: none;

@@ -5,9 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
     <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon" />
-    <title>Página 1</title>
+    <title>Página 2</title>
   </head>
   <body>
-    </body>
-    </html>
-    
+    <nav>
+      <a href="https://www.miraculousladybug.com/">
+        <img class="logo" src="../img/miraculous.png" alt="" />
+      </a>
+    </nav>
+    <main>
+      <div class="centre">
+        <h1>Escolhas Táticas</h1>
+        <p>
+          Marinette precisa passar por um dos capangas de Hawk Moth. Ela pode
+          tentar se disfarçar, lutar ou fugir. O jogo é um clássico Jokenpô, mas
+          com temática Miraculous.
+        </p>
+        <input
+          id="input"
+          type="number"
+          name="idade"
+          placeholder="Digite sua idade"
+        />
+        <div class="buttons-play">
+          <button onclick="verificacaoIdade()">Tikki Transformar</button>
+        </div>
+        <div id="area-game">
+          <p id="text-jokenpo">Ladybug, escolha sua tática: </p>
+          <div class="buttons-play">
+            <button onclick="play('disfarçe')">🕵️‍ Disfarce</button>
+            <button onclick="play('enfrentar')">🥊 Enfrenta</button>
+            <button onclick="play('fugir')">🏃‍♀️ Foge</button>
+          </div>
+        </div>
+
+        <h3 id="resultado"></h3>
+        <h3 id="ganhador"></h3>
+      </div>
+    </main>
+    <div id="buttons">
+      <a class="button-nav" href="../aula-1/index.html">
+        <img class="button-image" src="../img/favicon.png" alt="" />
+        <span>Menu</span>
+      </a>
+      <a class="button-nav" href="../aula-3/index.html">
+        <img class="button-image" src="../img/favicon.png" alt="" />
+        <span>Avançar</span>
+      </a>
+    </div>
+    <footer>
+      <h4>IMERSÃO DEV - ALURA 2025</h4>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
