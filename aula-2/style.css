@@ -3,16 +3,19 @@
 :root {
   --noir: rgb(0, 0, 0);
   --blanc: rgb(255, 255, 255);
+  --ladybug: #b90202;
+  --antibug: #720000;
   --padding-button: 8px 16px;
   --padding-card: 16px;
-  --padding-input: 15px 10px;
+  --padding-input: 10px 15px;
   --padding-title: 20px;
   --padding-logo: 16px;
   --padding-text: 20px;
   --padding-footer: 15px;
   --border: 2px solid rgb(0, 0, 0);
   --border-radius-div: 10px;
-  --border-radius-input: 5px; 
+  --border-radius-input: 5px;
+  --font: "Montserrat", sans-serif;
 }
 
 .montserrat-font {
@@ -21,7 +24,6 @@
   font-weight: 200;
   font-style: normal;
 }
-
 
 * {
   padding: 0;
@@ -39,26 +41,26 @@ body {
 }
 
 nav {
-    text-align: center;
+  text-align: center;
 }
 
 .logo {
-    width: 20%;
-    padding: var(--padding-logo);
+  width: 20%;
+  padding: var(--padding-logo);
 }
 
 main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .centre {
-    background-color: var(--blanc);
-    border: var(--border);
-    width: 40%; 
-    padding: 15px 40px;
-    border-radius: var(--border-radius-div);
+  background-color: var(--blanc);
+  border: var(--border);
+  width: 40%;
+  padding: 15px 40px;
+  border-radius: var(--border-radius-div);
 }
 
 h1 {
@@ -72,7 +74,7 @@ p {
 }
 
 #text-jokenpo {
-    padding: 10px;
+  padding: 10px;
 }
 
 #input {
@@ -109,14 +111,14 @@ button:hover {
 }
 
 #area-game {
-    display: none;
+  display: none;
 }
 
 h3 {
-    padding: 10px 0px;
-    text-align: center;
-  }
-  
+  padding: 10px 0px;
+  text-align: center;
+}
+
 #buttons {
   display: flex;
   align-items: center;
@@ -166,4 +168,3 @@ h4 {
   width: 100%;
   padding: var(--padding-footer);
 }
-
