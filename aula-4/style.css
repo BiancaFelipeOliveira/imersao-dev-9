@@ -14,7 +14,7 @@
   --padding-footer: 15px;
   --border: 2px solid rgb(0, 0, 0);
   --border-radius-div: 10px;
-  --border-radius-input: 5px; 
+  --border-radius-input: 5px;
   --font: "Montserrat", sans-serif;
 }
 
@@ -24,7 +24,6 @@
   font-weight: 200;
   font-style: normal;
 }
-
 
 * {
   padding: 0;
@@ -42,26 +41,26 @@ body {
 }
 
 nav {
-    text-align: center;
+  text-align: center;
 }
 
 .logo {
-    width: 20%;
-    padding: var(--padding-logo);
+  width: 20%;
+  padding: var(--padding-logo);
 }
 
 main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .centre {
-    background-color: var(--blanc);
-    border: var(--border);
-    width: 40%; 
-    padding: 15px 40px;
-    border-radius: var(--border-radius-div);
+  background-color: var(--blanc);
+  border: var(--border);
+  width: 40%;
+  padding: 15px 40px;
+  border-radius: var(--border-radius-div);
 }
 
 h1 {
@@ -74,23 +73,7 @@ p {
   text-align: justify;
 }
 
-#input {
-  margin: 10px 0px;
-  width: 100%;
-  padding: var(--padding-input);
-  border: var(--border);
-  border-radius: var(--border-radius-input);
-}
-
-#buttons-play {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 5px;
-  padding: 8px 0px;
-}
-
-button {
+#batalhar {
   width: 100%;
   padding: 10px 20px;
   border-radius: var(--border-radius-input);
@@ -99,9 +82,10 @@ button {
   color: var(--blanc);
   font-size: 19px;
   font-weight: 500;
+  margin-bottom: 10px;
 }
 
-button:hover {
+#batalhar:hover {
   background-color: var(--blanc);
   color: var(--noir);
   transition: background-color 0.5s ease;
@@ -112,11 +96,89 @@ h3 {
   text-align: center;
 }
 
+.herois-container {
+  max-width: 100%;
+  overflow-x: auto;
+  padding: 1rem 0;
+  margin-bottom: 2rem;
+}
+
+.personagens {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  gap: 1rem;
+  padding: 0 1rem;
+  width: max-content;
+}
+
+.cards {
+  border-radius: var(--border-radius-div);
+  cursor: pointer;
+  padding: var(--padding-card);
+  background-color: var(--blanc);
+}
+
+.cards > img {
+  width: 100px;
+  transition: transform 0.3s;
+  border-radius: var(--border-radius-input);
+}
+
+.cards:hover > img {
+  transform: scale(1.1);
+}
+
+.cards > span {
+  display: block;
+  margin-top: 0.5rem;
+  font-weight: bold;
+  font-size: 15px;
+  margin-left: 0.5rem;
+}
+
+#resultado {
+  font-size: 1.3rem;
+  padding: 1rem;
+  border: var(--border);
+  border-radius: var(--border-radius-div);
+  max-width: 600px;
+  margin-top: 10px;
+  display: none;
+  margin-bottom: 10px;
+}
+
+h2 {
+  margin-bottom: 15px;
+}
+
+.caixa-vencedor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.vencedor {
+  font-size: 20px;
+}
+
+.text-result {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+}
+
+.selecionado {
+  border: 3px solid #007bff;
+  border-radius: var(--border-radius-div);
+  background-color: #e0f0ff;
+}
+
 #buttons {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  
+  margin-bottom: 80px;
 }
 
 .button-nav {
@@ -161,4 +223,3 @@ h4 {
   width: 100%;
   padding: var(--padding-footer);
 }
-
